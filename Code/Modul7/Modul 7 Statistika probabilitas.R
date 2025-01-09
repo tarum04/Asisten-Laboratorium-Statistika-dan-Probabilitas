@@ -1,0 +1,11 @@
+Kharisma <- read.delim("clipboard")
+View(Kharisma)
+str(Kharisma)
+mean(Kharisma$Volume)
+t.test(Kharisma$Volume, mu=10)
+
+Risma <- read.delim("clipboard")
+View(Risma)
+str(Risma)
+mean(Risma$Penghasilan)
+t.test(Risma$Penghasilan, mu=14500)

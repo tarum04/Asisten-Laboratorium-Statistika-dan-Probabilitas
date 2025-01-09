@@ -1,0 +1,6 @@
+Modul1 = read.delim("clipboard")
+View(Modul1)
+mean(Modul1$Tinggi.Badan)
+str(Modul1)
+modul1 = read.csv("C:/Users/ASUS/Desktop/ASLAB/PRAK PROB STATIS/Statistika dan Probabilitas/Code/Modul1/Modul 1.csv")
+View(modul1)
